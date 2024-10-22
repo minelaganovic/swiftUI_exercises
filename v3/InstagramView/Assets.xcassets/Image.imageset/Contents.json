@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "photorealistic-view-tree-nature-with-branches-trunk_23-2151478039 1.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "photorealistic-view-tree-nature-with-branches-trunk_23-2151478039.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "photorealistic-view-tree-nature-with-branches-trunk_23-2151478039 2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
