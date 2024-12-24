@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43483BB2D1191480066ED62 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43483BA2D1191480066ED62 /* SideMenu.swift */; };
+		C43483BD2D11935E0066ED62 /* TabbedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43483BC2D11935E0066ED62 /* TabbedMenu.swift */; };
+		C43483BF2D1193DC0066ED62 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43483BE2D1193DC0066ED62 /* HomeView.swift */; };
+		C43483C12D1193EA0066ED62 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43483C02D1193EA0066ED62 /* ChatView.swift */; };
+		C43483C32D1193F60066ED62 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43483C22D1193F60066ED62 /* FavoriteView.swift */; };
+		C43483C52D1194090066ED62 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43483C42D1194090066ED62 /* ProfileView.swift */; };
+		C469D3032D084814006C44BD /* PMU_vezba_10App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469D3022D084814006C44BD /* PMU_vezba_10App.swift */; };
+		C469D3052D084814006C44BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469D3042D084814006C44BD /* ContentView.swift */; };
+		C469D3072D084819006C44BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C469D3062D084819006C44BD /* Assets.xcassets */; };
+		C469D30A2D084819006C44BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C469D3092D084819006C44BD /* Preview Assets.xcassets */; };
+		C469D3142D084819006C44BD /* PMU_vezba_10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469D3132D084819006C44BD /* PMU_vezba_10Tests.swift */; };
+		C469D31E2D084819006C44BD /* PMU_vezba_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469D31D2D084819006C44BD /* PMU_vezba_10UITests.swift */; };
+		C469D3202D084819006C44BD /* PMU_vezba_10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469D31F2D084819006C44BD /* PMU_vezba_10UITestsLaunchTests.swift */; };
+		C469D3302D084964006C44BD /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469D32F2D084964006C44BD /* SideMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C469D3102D084819006C44BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C469D2F72D084814006C44BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C469D2FE2D084814006C44BD;
+			remoteInfo = "PMU vezba 10";
+		};
+		C469D31A2D084819006C44BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C469D2F72D084814006C44BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C469D2FE2D084814006C44BD;
+			remoteInfo = "PMU vezba 10";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C43483BA2D1191480066ED62 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		C43483BC2D11935E0066ED62 /* TabbedMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedMenu.swift; sourceTree = "<group>"; };
+		C43483BE2D1193DC0066ED62 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C43483C02D1193EA0066ED62 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		C43483C22D1193F60066ED62 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		C43483C42D1194090066ED62 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C469D2FF2D084814006C44BD /* PMU vezba 10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PMU vezba 10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C469D3022D084814006C44BD /* PMU_vezba_10App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMU_vezba_10App.swift; sourceTree = "<group>"; };
+		C469D3042D084814006C44BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C469D3062D084819006C44BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C469D3092D084819006C44BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C469D30F2D084819006C44BD /* PMU vezba 10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PMU vezba 10Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C469D3132D084819006C44BD /* PMU_vezba_10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMU_vezba_10Tests.swift; sourceTree = "<group>"; };
+		C469D3192D084819006C44BD /* PMU vezba 10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PMU vezba 10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C469D31D2D084819006C44BD /* PMU_vezba_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMU_vezba_10UITests.swift; sourceTree = "<group>"; };
+		C469D31F2D084819006C44BD /* PMU_vezba_10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMU_vezba_10UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C469D32F2D084964006C44BD /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C469D2FC2D084814006C44BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C469D30C2D084819006C44BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C469D3162D084819006C44BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C469D2F62D084814006C44BD = {
+			isa = PBXGroup;
+			children = (
+				C469D3012D084814006C44BD /* PMU vezba 10 */,
+				C469D3122D084819006C44BD /* PMU vezba 10Tests */,
+				C469D31C2D084819006C44BD /* PMU vezba 10UITests */,
+				C469D3002D084814006C44BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C469D3002D084814006C44BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C469D2FF2D084814006C44BD /* PMU vezba 10.app */,
+				C469D30F2D084819006C44BD /* PMU vezba 10Tests.xctest */,
+				C469D3192D084819006C44BD /* PMU vezba 10UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C469D3012D084814006C44BD /* PMU vezba 10 */ = {
+			isa = PBXGroup;
+			children = (
+				C469D32E2D084953006C44BD /* View */,
+				C469D32D2D084943006C44BD /* SideMenu */,
+				C469D3022D084814006C44BD /* PMU_vezba_10App.swift */,
+				C469D3042D084814006C44BD /* ContentView.swift */,
+				C469D3062D084819006C44BD /* Assets.xcassets */,
+				C469D3082D084819006C44BD /* Preview Content */,
+				C43483BC2D11935E0066ED62 /* TabbedMenu.swift */,
+			);
+			path = "PMU vezba 10";
+			sourceTree = "<group>";
+		};
+		C469D3082D084819006C44BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C469D3092D084819006C44BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C469D3122D084819006C44BD /* PMU vezba 10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C469D3132D084819006C44BD /* PMU_vezba_10Tests.swift */,
+			);
+			path = "PMU vezba 10Tests";
+			sourceTree = "<group>";
+		};
+		C469D31C2D084819006C44BD /* PMU vezba 10UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C469D31D2D084819006C44BD /* PMU_vezba_10UITests.swift */,
+				C469D31F2D084819006C44BD /* PMU_vezba_10UITestsLaunchTests.swift */,
+			);
+			path = "PMU vezba 10UITests";
+			sourceTree = "<group>";
+		};
+		C469D32D2D084943006C44BD /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C469D32F2D084964006C44BD /* SideMenuView.swift */,
+				C43483BA2D1191480066ED62 /* SideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		C469D32E2D084953006C44BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C43483BE2D1193DC0066ED62 /* HomeView.swift */,
+				C43483C02D1193EA0066ED62 /* ChatView.swift */,
+				C43483C22D1193F60066ED62 /* FavoriteView.swift */,
+				C43483C42D1194090066ED62 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C469D2FE2D084814006C44BD /* PMU vezba 10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C469D3232D084819006C44BD /* Build configuration list for PBXNativeTarget "PMU vezba 10" */;
+			buildPhases = (
+				C469D2FB2D084814006C44BD /* Sources */,
+				C469D2FC2D084814006C44BD /* Frameworks */,
+				C469D2FD2D084814006C44BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMU vezba 10";
+			productName = "PMU vezba 10";
+			productReference = C469D2FF2D084814006C44BD /* PMU vezba 10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C469D30E2D084819006C44BD /* PMU vezba 10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C469D3262D084819006C44BD /* Build configuration list for PBXNativeTarget "PMU vezba 10Tests" */;
+			buildPhases = (
+				C469D30B2D084819006C44BD /* Sources */,
+				C469D30C2D084819006C44BD /* Frameworks */,
+				C469D30D2D084819006C44BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C469D3112D084819006C44BD /* PBXTargetDependency */,
+			);
+			name = "PMU vezba 10Tests";
+			productName = "PMU vezba 10Tests";
+			productReference = C469D30F2D084819006C44BD /* PMU vezba 10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C469D3182D084819006C44BD /* PMU vezba 10UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C469D3292D084819006C44BD /* Build configuration list for PBXNativeTarget "PMU vezba 10UITests" */;
+			buildPhases = (
+				C469D3152D084819006C44BD /* Sources */,
+				C469D3162D084819006C44BD /* Frameworks */,
+				C469D3172D084819006C44BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C469D31B2D084819006C44BD /* PBXTargetDependency */,
+			);
+			name = "PMU vezba 10UITests";
+			productName = "PMU vezba 10UITests";
+			productReference = C469D3192D084819006C44BD /* PMU vezba 10UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C469D2F72D084814006C44BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C469D2FE2D084814006C44BD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C469D30E2D084819006C44BD = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C469D2FE2D084814006C44BD;
+					};
+					C469D3182D084819006C44BD = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C469D2FE2D084814006C44BD;
+					};
+				};
+			};
+			buildConfigurationList = C469D2FA2D084814006C44BD /* Build configuration list for PBXProject "PMU vezba 10" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C469D2F62D084814006C44BD;
+			productRefGroup = C469D3002D084814006C44BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C469D2FE2D084814006C44BD /* PMU vezba 10 */,
+				C469D30E2D084819006C44BD /* PMU vezba 10Tests */,
+				C469D3182D084819006C44BD /* PMU vezba 10UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C469D2FD2D084814006C44BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C469D30A2D084819006C44BD /* Preview Assets.xcassets in Resources */,
+				C469D3072D084819006C44BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C469D30D2D084819006C44BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C469D3172D084819006C44BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C469D2FB2D084814006C44BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43483C32D1193F60066ED62 /* FavoriteView.swift in Sources */,
+				C43483C52D1194090066ED62 /* ProfileView.swift in Sources */,
+				C469D3052D084814006C44BD /* ContentView.swift in Sources */,
+				C469D3032D084814006C44BD /* PMU_vezba_10App.swift in Sources */,
+				C469D3302D084964006C44BD /* SideMenuView.swift in Sources */,
+				C43483BF2D1193DC0066ED62 /* HomeView.swift in Sources */,
+				C43483C12D1193EA0066ED62 /* ChatView.swift in Sources */,
+				C43483BB2D1191480066ED62 /* SideMenu.swift in Sources */,
+				C43483BD2D11935E0066ED62 /* TabbedMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C469D30B2D084819006C44BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C469D3142D084819006C44BD /* PMU_vezba_10Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C469D3152D084819006C44BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C469D31E2D084819006C44BD /* PMU_vezba_10UITests.swift in Sources */,
+				C469D3202D084819006C44BD /* PMU_vezba_10UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C469D3112D084819006C44BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C469D2FE2D084814006C44BD /* PMU vezba 10 */;
+			targetProxy = C469D3102D084819006C44BD /* PBXContainerItemProxy */;
+		};
+		C469D31B2D084819006C44BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C469D2FE2D084814006C44BD /* PMU vezba 10 */;
+			targetProxy = C469D31A2D084819006C44BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C469D3212D084819006C44BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C469D3222D084819006C44BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C469D3242D084819006C44BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PMU vezba 10/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "def.PMU-vezba-10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C469D3252D084819006C44BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PMU vezba 10/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "def.PMU-vezba-10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C469D3272D084819006C44BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "def.PMU-vezba-10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PMU vezba 10.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PMU vezba 10";
+			};
+			name = Debug;
+		};
+		C469D3282D084819006C44BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "def.PMU-vezba-10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PMU vezba 10.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PMU vezba 10";
+			};
+			name = Release;
+		};
+		C469D32A2D084819006C44BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "def.PMU-vezba-10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PMU vezba 10";
+			};
+			name = Debug;
+		};
+		C469D32B2D084819006C44BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "def.PMU-vezba-10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PMU vezba 10";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C469D2FA2D084814006C44BD /* Build configuration list for PBXProject "PMU vezba 10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C469D3212D084819006C44BD /* Debug */,
+				C469D3222D084819006C44BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C469D3232D084819006C44BD /* Build configuration list for PBXNativeTarget "PMU vezba 10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C469D3242D084819006C44BD /* Debug */,
+				C469D3252D084819006C44BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C469D3262D084819006C44BD /* Build configuration list for PBXNativeTarget "PMU vezba 10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C469D3272D084819006C44BD /* Debug */,
+				C469D3282D084819006C44BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C469D3292D084819006C44BD /* Build configuration list for PBXNativeTarget "PMU vezba 10UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C469D32A2D084819006C44BD /* Debug */,
+				C469D32B2D084819006C44BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C469D2F72D084814006C44BD /* Project object */;
+}
